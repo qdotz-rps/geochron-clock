@@ -1,0 +1,15 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  padding: 10px;
+}
+
+/* ✅ CORRECT SELECTOR */
+#map {
+  width: 100%;
+  height: 500px;   /* 🔴 REQUIRED */
+  background: #ddd;
+}
